@@ -1,0 +1,33 @@
+# Node
+node_modules/
+.next/
+/out/ # For static HTML export
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env*.local # Matches .env.local, .env.development.local, etc.
+.env
+
+# Local development and editor-specific files
+.DS_Store # macOS specific
+.vscode/ # VS Code settings (optional, but often ignored)
+*.log
+*.pnpm-debug.log*
+
+# Next.js build output
+.next/
+# If you are using next export
+# out/
+
+# npm package manager cache
+.npm/
+# yarn package manager cache
+.yarn/
+
+# Miscellaneous
+.DS_Store
